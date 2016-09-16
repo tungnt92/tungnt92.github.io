@@ -1,0 +1,113 @@
+// Menu top style
+.menu-top {
+  padding: 30px 0;
+}
+
+.menu-item{
+  color: $menu-color;
+  cursor: pointer;
+
+  &:hover {
+    color: $menu-color-hover;
+    text-decoration: none;
+    transition: all .3s ease-out;
+  }
+}
+
+.navi_fade {
+  display: none;
+}
+
+header {
+  height: 114px;
+  width: 100%;
+  left: 0;
+  top: 0;
+  position: fixed;
+  z-index: 999999;
+  span {
+    a {
+      display: block;
+      position: absolute;
+      font-size: 15px;
+      top: 45px;
+      left: 49px;
+      letter-spacing: 1.2px;
+    }
+  }
+  ul {
+    display: block;
+    position: absolute;
+    font-size: 15px;
+    top: 30px;
+    right: 50px;
+    height: 20px;
+    li {
+      float: left;
+      list-style-type: none;
+      margin-left: 125px;
+      letter-spacing: 1.2px;
+      .menu-item{
+        color: #fff;
+      }
+    }
+  }
+}
+
+.main-menu {
+  width: 100%;
+  height: 978px;
+  margin: 0 auto;
+  position: relative;
+  letter-spacing: 1.2px;
+  .work {
+    position: absolute;
+    top: 40px;
+    right: 50px;
+    font-size: 15px;
+    z-index: 999999;
+    height: 20px;
+    text-align: right;
+  }
+
+  .about {
+    position: absolute;
+    bottom: 40px;
+    left: 50px;
+    font-size: 15px;
+    z-index: 999999;
+    width: 380px;
+    height: 20px;
+    text-align: left;
+  }
+
+  .contact {
+    display: block;
+    position: absolute;
+    font-size: 15px;
+    bottom: 35px;
+    right: 49px;
+    text-align: right;
+    z-index: 66666;
+  }
+
+  .main-intro {
+    font-size: 150px;
+    line-height: 0.93em;
+    display: block;
+    text-align: center;
+    position: absolute;
+    width: 80%;
+    height: 150px;
+    margin: auto;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    padding: 0;
+    z-index: 4;
+    color: $menu-color;
+  }
+}
+
+//Menu bottom style
