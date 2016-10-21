@@ -1,3 +1,9 @@
+// Third-party
+@import "vendor/animate";
+@import "vendor/remodal";
+@import "vendor/remodal-default-theme";
+@import "vendor/hover";
+
 // Modules and Variables
 @import "modules/all";
 @import "partials/base";
@@ -9,7 +15,5 @@
 @import "partials/grids";
 @import "partials/menu";
 @import "partials/canvas";
+@import "partials/popup";
 // ...
-
-// Third-party
-@import "vendor/animate";

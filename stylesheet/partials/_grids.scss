@@ -1,0 +1,26 @@
+.works {
+  overflow: hidden;
+  img {
+    width: 100%;
+  }
+
+  .work-desc {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 15px 30px;
+    width: 100%;
+    .title {
+      display: block;
+      font-size: 22px;
+      &:hover {
+        cursor: pointer;
+        color: $menu-color-hover;
+        transition: all .3s ease-out;
+      }
+    }
+    .desc {
+      color: $work-description-color;
+    }
+  }
+}
